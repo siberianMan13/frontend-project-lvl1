@@ -1,4 +1,4 @@
-name: app-cations
+name: app-aсtions
 on: 
   - push
   - pull_request
@@ -11,5 +11,9 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: ${{ matrix.node-version }} 
-      - run: make install
+      - name: npm install
+        run: make install
+        env:
+          CI: true
+          name: Run linter
       - run: make lint
