@@ -1,5 +1,8 @@
 name: app-cations
-on: [push]
+on: 
+  - push
+  - pull_request
+
 jobs:
   check-bats-version:
     runs-on: ubuntu-latest
