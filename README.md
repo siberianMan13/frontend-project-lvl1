@@ -7,3 +7,5 @@
 ![example workflow](https://github.com/siberianMan13/frontend-project-lvl1/actions/workflows/app-actions.yml/badge.svg)
 
 https://asciinema.org/a/4x9LqGLjpLN8PII79BJKfsIAJ
+
+https://asciinema.org/a/JnkI6NRrL5cFSmstiz9LdrIVV
