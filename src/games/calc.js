@@ -38,7 +38,7 @@ function calcGame() {
       console.log(`Let's try again, ${nameUser}!`);
       return;
     }
-    console.log(`Congratulations, ${nameUser}!`);
   }
+  console.log(`Congratulations, ${nameUser}!`);
 }
 export default calcGame;
