@@ -8,7 +8,6 @@ function engineGame(gameRules, bodyGame) {
   console.log(`Hello, ${nameUser}!`);
   console.log(gameRules);
   const count = 3;
-
   for (let i = 0; i < count; i += 1) {
     const [gameQuestion, rightAnswer] = bodyGame();
     const usersAnswer = readlineSync.question(`Question: ${gameQuestion} `);

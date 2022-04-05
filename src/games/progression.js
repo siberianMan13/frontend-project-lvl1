@@ -1,6 +1,6 @@
 import engineGame, { getRandomNum } from '../index.js';
 
-const gameRules = console.log('What number is missing in the progression?');
+const gameRules = 'What number is missing in the progression?';
 
 const bodyGame = () => {
   const giveProgressivNum = getRandomNum(2, 6);
