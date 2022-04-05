@@ -2,11 +2,11 @@ import readlineSync from 'readline-sync';
 
 export const getRandomNum = (min, max) => Math.round(Math.random() * (max - min) + min);
 
-function engineGame(bodyGame) {
+function engineGame(gameRules, bodyGame) {
   console.log('Welcome to the Brain Games!');
   const nameUser = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${nameUser}!`);
-  console.log(bodyGame[2]);
+  console.log(gameRules);
   const count = 3;
 
   for (let i = 0; i < count; i += 1) {
