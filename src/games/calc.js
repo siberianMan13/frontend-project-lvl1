@@ -19,7 +19,7 @@ function bodyGame() {
   const numTwo = getRandomNum(1, 9);
   const randOperator = sign[getRandomNum(0, 2)];
   const rightAnswer = calculate(numOne, numTwo, randOperator).toString();
-  const gameQuestion = ` ${numOne} ${randOperator} ${numTwo} `;
+  const gameQuestion = `${numOne} ${randOperator} ${numTwo} `;
   return [gameQuestion, rightAnswer];
 }
 
