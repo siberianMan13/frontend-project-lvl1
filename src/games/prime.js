@@ -1,4 +1,3 @@
-import readlineSync from 'readline-sync';
 import engineGame, { getRandomNum } from '../index.js';
 
 const gameRules = 'Answer "yes" if given number is prime. Otherwise answer "no".';
