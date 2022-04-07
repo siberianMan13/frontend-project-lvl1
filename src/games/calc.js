@@ -1,20 +1,20 @@
-import engineGame, { getRandomNum } from '../index.js';
+import engineGame from '../index.js';
+import getRandomNum from '../utils.js';
 
 const gameRules = 'What is the result of the expression?';
 
 const sign = ['+', '-', '*'];
 const calculate = (numOne, numTwo, operator) => {
-  if (operator === '+') {
-    const result = numOne + numTwo;
-    return result;
-  } if (operator === '-') {
-    const result = numOne - numTwo;
-    return result;
+  switch (operator) {
+    case '+':
+      return numOne + numTwo;
+    case '-':
+      return numOne - numTwo;
+    default:
+      return numOne * numTwo;
   }
-  const result = numOne * numTwo;
-  return result;
 };
-function bodyGame() {
+function giveGame() {
   const numOne = getRandomNum(1, 9);
   const numTwo = getRandomNum(1, 9);
   const randOperator = sign[getRandomNum(0, 2)];
@@ -23,6 +23,6 @@ function bodyGame() {
   return [gameQuestion, rightAnswer];
 }
 
-const calcGame = () => engineGame(gameRules, bodyGame);
+const calcGame = () => engineGame(gameRules, giveGame);
 
 export default calcGame;

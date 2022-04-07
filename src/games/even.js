@@ -1,4 +1,5 @@
-import engineGame, { getRandomNum } from '../index.js';
+import engineGame from '../index.js';
+import getRandomNum from '../utils.js';
 
 const gameRules = 'Answer "yes" if the number is even, otherwise answer "no".';
 
@@ -9,12 +10,12 @@ function isEven(num) {
   return 'no';
 }
 
-const gameBody = () => {
+const giveGame = () => {
   const randomNum = getRandomNum(1, 98);
   const rightAnswer = isEven(randomNum);
   const gameQuestion = randomNum;
   return [gameQuestion, rightAnswer];
 };
-const evenGame = () => engineGame(gameRules, gameBody);
+const evenGame = () => engineGame(gameRules, giveGame);
 
 export default evenGame;
