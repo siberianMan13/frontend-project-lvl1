@@ -17,13 +17,12 @@
 
 ![example workflow](https://github.com/siberianMan13/frontend-project-lvl1/actions/workflows/app-actions.yml/badge.svg)
 
-<video> <sourse src=https://asciinema.org/a/4x9LqGLjpLN8PII79BJKfsIAJ>
+https://asciinema.org/a/4x9LqGLjpLN8PII79BJKfsIAJ
 
-<source src=https://asciinema.org/a/JnkI6NRrL5cFSmstiz9LdrIVV>
+https://asciinema.org/a/JnkI6NRrL5cFSmstiz9LdrIVV
 
-<source src=https://asciinema.org/a/S783381fiuMfQcBI2k9MmmOlQ>
+https://asciinema.org/a/S783381fiuMfQcBI2k9MmmOlQ
 
-<source src=https://asciinema.org/a/MuHnGbHX5RtGBXTOePAsxNTVT>
-
-<source src=https://asciinema.org/a/7OdEHQ67oZpKx2qaAfugaB8tq>
-</video>
+https://asciinema.org/a/MuHnGbHX5RtGBXTOePAsxNTVT
+    
+https://asciinema.org/a/7OdEHQ67oZpKx2qaAfugaB8tq
